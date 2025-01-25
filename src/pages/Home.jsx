@@ -9,8 +9,7 @@ import ExploreBottom from '../component/ExploreSection/ExploreBottom'
 import BorderText from '../component/common/BorderText'
 import Hero from '../component/Home/Hero'
 import Booking from '../component/Booking/Booking'
-import banner1 from "../assets/banner/banner1.jpeg";
-import banner from "../assets/banner/banner.jpg";
+import banner from "../assets/banner/phn_size_republic_day.jpeg";
 
 const Home = () => {
   useEffect(()=>{
@@ -22,7 +21,7 @@ const Home = () => {
       <div className='mt-14'>
         <Banner />
         <div className=" w-screen bg-white h-auto block sm:hidden">
-            <img src={banner1} className="w-[100%]" alt="" />
+            {/* <img src={banner1} className="w-[100%]" alt="" /> */}
             <img src={banner} className="w-[100%]" alt="" />
         </div>
       </div>

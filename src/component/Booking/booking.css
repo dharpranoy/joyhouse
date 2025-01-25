@@ -1,0 +1,72 @@
+    .bg1{
+        background-image: url('./images/Bg1.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        height: auto;
+        padding: 00px;
+    }
+
+    .bg2{
+        background-image: url('./images/Bg2.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 0%;
+        height: auto;
+    }
+
+ 
+    .vertical-marquee {
+        height: 500px; /* Adjust this based on your container height */
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .marquee-content {
+        display: flex;
+        flex-direction: column;
+        animation: scroll 15s linear infinite;
+    }
+    
+    .marquee-content img {
+        width: 100%; /* Adjust based on your needs */
+        margin-bottom: 20px; /* Adjust spacing between images */
+    }
+    
+    @keyframes scroll {
+        0% {
+            transform: translateY(-50%);
+        }
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    .vertical-marquee1 {
+        height: 500px; /* Adjust this based on your container height */
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .marquee-content1 {
+        display: flex;
+        flex-direction: column;
+        animation: scroll1 15s linear infinite;
+    }
+    
+    .marquee-content1 img {
+        width: 100%; /* Adjust based on your needs */
+        margin-bottom: 20px; /* Adjust spacing between images */
+    }
+    
+    @keyframes scroll1 {
+        0% {
+            transform: translateY(0%);
+        }
+        100% {
+            transform: translateY(-50%);
+        }
+    }
+    
